@@ -1,0 +1,50 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+.header{
+	height: 100px;
+	background-color: blueviolet;
+}
+
+.home, .about, .gallery, .contact{
+	font-family: sans-serif;
+	width: 25%;
+	float: left;
+	text-align: center;
+	margin-top: 30px;
+	color: #fff;
+}
+
+.home{
+	background-color: rgba(0, 0, 0, 0.1);
+}
+
+.about{
+	background-color: rgba(0, 0, 0, 0.2);
+}
+
+.gallery{
+	background-color: rgba(0, 0, 0, 0.3);
+}
+
+.contact{
+	background-color: rgba(0, 0, 0, 0.4);
+}
+
+.map iframe{
+	width: 100%;
+	height: 400px;
+}
+
+.cat iframe{
+	width: 30%;
+	height: 315px;
+	float: left;
+}
+
+.dog iframe{
+	width: 30%;
+	height: 315px;
+}
